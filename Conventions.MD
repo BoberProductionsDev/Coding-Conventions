@@ -50,25 +50,24 @@ This document will contain a list with conventions to follow while we are creati
     - Good example: GameManager
 2. Group objects to get a clearer view on the project in the editor
     - Bad example:
-    => GameManager
-    => SceneManager
-    => EnemyManager
-    => Checkpoint 1
-    => Checkpoint 2
-    => Checkpoint 3
-
+        - GameManager
+        - SceneManager
+        - EnemyManager
+        - Checkpoint 1
+        - Checkpoint 2
+        - Checkpoint 3
     - Good example:
-    => Managers
-        => GameManager
-        => SceneManager
-        => EnemyManager
-    => Checkpoints
-        => Checkpoint 1
-        => Checkpoint 2
-        => Checkpoint 3
+        - Managers
+            - GameManager
+            - SceneManager
+            - EnemyManager
+        - Checkpoints
+            - Checkpoint 1
+            - Checkpoint 2
+            - Checkpoint 3
 3. Order of objects
-    => Cameras
-    => Canvas (UI)
-    => Level Design
-    => Managers
-    => Other objects
+    - Cameras
+    - Canvas (UI)
+    - Level Design
+    - Managers
+    - Other objects
