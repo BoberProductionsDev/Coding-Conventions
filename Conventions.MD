@@ -1,5 +1,5 @@
 # Conventions
-This document will contain a list with conventions to follow while we are creating Within the Scraps
+This document will contain a list of conventions to follow while we are creating Within the Scraps.
 
 # General coding conventions
 1. By default all methods, properties and fields should be private. Only if it is needed should you make it public. This will prevent our Unity Editor from filling up with useless information that we can access in better ways.
