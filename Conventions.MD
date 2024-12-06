@@ -4,6 +4,7 @@ This document will contain a list of conventions to follow while we are creating
 # General coding conventions
 1. By default all methods, properties and fields should be private. Only if it is needed should you make it public. This will prevent our Unity Editor from filling up with useless information that we can access in better ways.
 2. When writing a comment on a piece of code or method. Write about what it means in the context instead of what it does.
+    - Comments must be written in English!
 3. Check and remove unused imports.
 4. Check and remove unused variables/fields/properties
     - With 3 and 4 we aim to have clean readable code that is made in as few lines as possible.
