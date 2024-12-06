@@ -163,7 +163,7 @@ This document will contain a list with conventions to follow while we are creati
     ```
 
 2. Group objects to get a clearer view on the project in the editor
-    - Bad example:
+    - Bad:
         ```
         ├── GameManager
         ├── SceneManager
@@ -172,7 +172,7 @@ This document will contain a list with conventions to follow while we are creati
         ├── Checkpoint 2
         └── Checkpoint 3
         ```
-    - Good example:
+    - Good:
 
         ```
         Managers
